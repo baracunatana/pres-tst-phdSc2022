@@ -1,0 +1,318 @@
+#+title: Transiciones socio-técnicas en contextos no-líderes
+#+author: Juan E. Gómez-Morantes, PhD
+
+# Configuración básica
+#+reveal_root: https://cdn.jsdelivr.net/gh/hakimel/reveal.js@4.1.2/
+#+reveal_version: 4
+#+reveal_hlevel: 2
+#+language: es
+#+reveal_theme: solarized
+#+options: toc:nil num:nil reveal_width:1600 reveal_height:900 reveal_margin:0.1 reveal_minScale:0.2 reveal_maxScale:2.5 reveal_transition:'cube' reveal_history:true date:nil html5-fancy:t reveal_embed_local_resources:t
+#+reveal_extra_css: https://cdn.jsdelivr.net/gh/baracunatana/re-reveal-estilos/j-oer-re-reveal.css
+#+reveal_plugins: (notes)
+#+export_file_name: ./docs/index.html
+
+#+bibliography: /home/juan/biblioteca/main.bib
+#+cite_export: csl
+
+#+reveal_head_preamble: <style> .hidden { display: none;}</style>
+#+reveal_head_preamble: <style> .con-imagen { padding: 80px; background-color: rgba(255, 255, 255, .6); }</style>
+
+#+reveal_title_slide_extra_attr: style="font-size: 40%;"
+
+* Introducción
+:PROPERTIES:
+:HTML_HEADLINE_CLASS: hidden
+:END:
+
+#+begin_coliz
+#+attr_html: :width 70% 
+[[file:media/juanPerfil.jpg]]
+#+end_coliz
+
+#+begin_colde
+#+attr_html: :align left
+#+attr_html: :style font-size: 40%;
+#+begin_div
+#+attr_html: :style font-size: 200%;
+*Juan Erasmo Gómez-Morantes*
+
+#+attr_html: :style font-size: 150%;
+/je.gomezm@javerianae.edu.co/
+
+Ingeniero de Sistemas y Computación, Universidad de los Andes
+
+MSc en Ingeniería, Universidad de los Andes
+
+PhD en /Development Policy and Management/, Universidad de Mánchester
+
+Profesor del Departamento de Ingeniería de Sistemas, Pontificia Universidad Javeriana
+#+end_div
+
+#+end_colde
+
+* ¿Qué es la tecnología?
+:PROPERTIES:
+:HTML_HEADLINE_CLASS: con-imagen
+:reveal_background: ./media/avion.jpeg
+:END:
+
+#+begin_notes
+Hay que superar visiones materialistas que ven la tecnología como artefactos tangibles o productos ya que estas visiones no incluyen elementos sociales o institucionales como regulaciones, prácticas, política, identidades, etc. Esto limita el valor de estas visiones en casi cualquier contexto, pero especialmente en contextos en donde el desarrollo social es un preocupación central [[parencite:&Heeks2002]] y puede conducir a *tecno-determinismo*.
+#+end_notes
+
+** La construcción social de la tecnología
+#+begin_coliz
+[[file:media/scot.jpg]]
+#+end_coliz
+
+#+begin_colde
+#+attr_reveal: :frag (appear)
++ Las tecnologías son influenciadas por su contexto durante su desarrollo *y* en significado que se les asigna y el uso que se les da
++ ¿Cambiamos el determinismo tecnológico por el determinismo social?
++ El mismo artefacto, puesto en dos contextos sociales diferentes, se va a desarrollar de formas distintas; constituirá una tecnología distinta
+#+end_colde
+
+#+begin_notes
+La tradición de construcción social de la tecnología (SCOT) nos dice que las tecnologías son fuertemente influenciadas por su contexto no sólo durante su desarrollo, sino también en significado que se les asigna y el uso que se les da [[parencite:&Pinch1984;&Bijker1987]]. 
+
++ Esto tiene un riesgo y es que cambiemos el determinismo tecnológico por el determinismo social [[parencite:&Doherty2006;&Oliver2011]]. Al final, como en todo, la cuestión es de balance: es un proceso de co-evolución entre tecnología y contexto.
++ Una consecuencia fundamental: el mismo artefacto, puesto en dos contextos sociales diferentes, se va a desarrollar de formas distintas; constituirá una tecnología distinta.
+#+end_notes
+
+** La tecnología como redes
+
+#+begin_coliz
+Esto nos lleva a una concepción de tecnologías en donde los artefactos "duros" son inseparables de su contexto, son "/configurations that work/" [cite:@Rip1998] o "/seamless webs/" [cite:@Hughes1986]. Todos los elementos se necesitan y están al mismo nivel. 
+#+end_coliz
+
+#+begin_colde
+[[https://www.pexels.com/photo/a380-air-airbus-aircraft-358220/][file:media/avion.jpeg]]
+#+end_colde
+
+* ¿Qué es innovación?
+:PROPERTIES:
+:HTML_HEADLINE_CLASS: con-imagen
+:reveal_background: ./media/red.jpg
+:END:
+
+#+begin_notes
+La innovación es un proceso a través del cual se construyen tecnologías (i.e. /"configurations that work"/).
+
+Una consecuencia fundamental: la innovación nunca ocurre en aislamiento.
+#+end_notes
+
+** Formas de innovación
+#+caption: Tomado de [cite:@Gomez-Morantes2016] 
+#+attr_html: :width 40% 
+[[file:media/arqInnovacion.png]]
+
+#+begin_notes
+Si le otorgamos a los artefactos duros una centralidad en la red que son las tecnologías, llegamos a cuatro arquetipos de procesos de innovación (basado en Gregor et al. 2013): 
+#+end_notes
+
+* Los sistemas de innovación
+Basados en [cite:@Nelson1988] con influencias del trabajo previo de la OECD (ver [cite:@Godin2006])
+
+#+attr_html: :align left
+Características principales: 
+
+#+attr_html: :style font-size: 80%;
+#+attr_reveal: :frag (appear)
++ Reconoce la innovación técnica como un proceso multi-actor
++ Reconoce múltiples elementos institucionales que influencian el proceso de innovación
++ Asume una concepción amplia de la innovación que incluye elementos como regulación, conocimiento (ciencia), instituciones económicas, e instituciones empresariales
++ Da una visión sistémica de la innovación basada en actores (organizaciones o individuos), instituciones, y relaciones entre estos
++ Sistema con propósito: desarrollo, difusión, y uso de innovaciones
++ Parte de una perspectiva evolutiva; no busca optimización
++ Entiende la innovación como un proceso de aprendizaje. Esto amplía su campo de acción (como marco conceptual)
+
+#+begin_notes
+Características basadas en [[parencite:&Edquist2006]]
+
+Se ha estudiado con diferentes alcances: sistemas nacionales, regionales, industriales, etc. Todos se basan, en principio, en los mismos conceptos.
+#+end_notes
+
+** Críticas
+#+attr_reveal: :frag (appear)
++ Está sub-teorizado y no tiene un uso uniforme de conceptos claves como el de "institución"
++ No se tiene una forma desarrollada de definir los límites del sistema
++ Está muy enfocado en el segmento de oferta (de la innovación) y entiende a las empresas (o a los actores encargados del desarrollo tecnológico) como principal actor en el proceso de innovación.
++ Es estático y tiene limitaciones importantes para entender procesos de competencia, cambio, o transición de un sistema a otro
+
+#+begin_notes
++ Está sub-teorizado y no tiene un uso uniforme de conceptos claves como el de "institución"
++ No se tiene una forma desarrollada de definir los límites del sistema. Esto, si bien es una limitación operativa del marco, es visto como una ventaja por los proponentes, que insisten en que "a definition of the systems of innovation must be kept open and flexible” [[parencite:&Lundvall;p. 13]]
++ Está muy enfocado en el segmento de oferta (de la innovación) y entiende a las empresas (o a los actores encargados del desarrollo tecnológico) como principal actor en el proceso de innovación. Los consumidores (o el mercado) quedan excluidos al "/institucional context/"; se convierten en actores periféricos. 
++ Es estático y tiene limitaciones importantes para entender procesos de competencia, cambio, o transición de un sistema a otro [[parencite:&Geels2004]]
+
+Este último elemento es el de mayor impacto. El marco de SoI no da herramientas para entender procesos de cambio o reemplazo tecnológico. Esto da paso a la MLP.
+#+end_notes
+
+* La MLP
+#+begin_coliz
+#+attr_html: :style font-size: 80%;
+#+attr_html: :align left
+Es un marco conceptual basado en transiciones socio-técnicas [cite:@Geels2007; @Rip1998] con raíces teóricas en economía, economía evolutiva, sociología, e innovación [cite:@Geels2005]. 
+#+end_coliz
+
+#+begin_colde
+#+caption: Tomado de [cite:@Geels2002, p. 1261]
+[[file:media/estructura.png]]
+#+end_colde
+
+#+begin_notes
+Conceptos estructurales:
++ Regímenes socio-técnicos: Son gramáticas o conjuntos de reglas que guían el comportamiento humano. Al mismo tiempo, son impactadas por agencia humana y toman forma gracias al comportamiento y las acciones de las personas que incluyen: son "/context and an outcome of action/" [[parencite:&Geels2011;p. 26]]. Son dinámicos y no necesariamente estables.
++ Nichos socio-técnicos: Son, en estructura, similares a los regímenes. Sin embargo, contrario a estos, son inestables, experimentales, y tiene como objetivo el producir innovaciones radicales. Están aislados del régimen (por diseño) para tener espacio de experimentación. Deben ser protegidos del régimen para sobrevivir y, eventualmente, madurar
++ Panorama: Estructuras, tendencias, o fuerzas que está por fuera del control del régimen (e.g. guerras, tendencias demográficas, cambios geopolíticos, pandemias, etc). Proveen gradientes para caminos particulares; los facilitan o dificultan
+#+end_notes
+
+** Tres tipos de reglas
+:PROPERTIES:
+:HTML_HEADLINE_CLASS: hidden
+:END:
+
+#+attr_html: :style font-size: 70%;
+#+caption: Tomado de [cite:@Geels2004a, p. 905]
+|                         | Regulativas                                                                                                                                         | Normativas                                                                             | Cognitivas                                                                                                                   |
+|-------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------|
+| Ejemplos                | Reglas formales, leyes, sanciones, estructuras de incentivos, estructuras de costos, sistemas de governanza, protocolos, estándares, procedimientos | Valores, expectativas, roles, sistemas de autoridad, obligaciones, códigos de conducta | Prioridades, agendas de problemas, creencias, paradigmas, modelos de realidad, ontologías, lenguaje, heurísticas de búsqueda |
+| Bases para cumplimiento | Expedición                                                                                                                                          | Obligación social                                                                      | Se dan por sentado                                                                                                           |
+| Mecanismos              | Coercitivos                                                                                                                                         | Presión normativa (sanciones sociales)                                                 | Imitación, aprendizaje                                                                                                       |
+| Lógica                  | Instrumentalidad (creación de estabilidad)                                                                                                          | Pertenencia y aceptación (así hacemos las cosas)                                       | Ortodoxia (ideas, conceptos, e imaginarios colectivos)                                                                       |
+| Legitimidad             | Sanción legal                                                                                                                                       | Gobernados moralmente                                                                  | Soportados culturalmente, axiomáticos                                                                                        |
+
+#+begin_notes
+Las reglas pueden ser de 3 tipos: regulativas, normativas, y cognitivas ([[parencite:&Geels2004a]] basado en [[parencite:&Scott1995]])
+
+Las reglas, en particular las normativas, tiene un menor efecto en los nichos que en los regímenes
+#+end_notes
+
+** Transiciones socio-técnicas
+#+caption: Adaptado de [cite:@Geels2005a, p.685]
+[[file:media/transiciones.png]]
+
+#+begin_notes
++ Transiciones socio-técnicas: Es el proceso a través del cual los regímenes cambian de rumbo. En este proceso interviene el régimen (por obvias razones), el panorama (al imponer gradientes), y el nicho (al ser la principal fuente de inestabilidad para el régimen). Es un proceso co-evolutivo entre régimen, nicho, y tecnología.
+  
+El choque entre nicho y régimen es un choque que va más allá de la competencia entre artefactos o fabricantes; es un conflicto cultural entre las reglas del régimen y las reglas embebidas en la tecnología que surge del nicho
+
+Las transiciones son procesos de cambio fundamentales en la forma en la que funcionan (y están compuestos) los regímenes socio-técnicos [[parencite:&Markard2012]]. Ejemplos incluyen la transición de barcos de vela a barcos de vapor [[parencite:&Geels2002]], de carruajes a automóviles [[parencite:&Geels2005]], y de modelos agro-industriales de producción de comida a modelos orgánicos [[parencite:&Smith2006]].
+#+end_notes
+
+** El rol de panorama
+#+caption: Tomado de [cite:@Sahal1985]
+[[file:media/gradientes.png]]
+
+#+begin_notes
+Los nichos son la principal fuente de cambio para transiciones socio-técnicas. Sin embargo, para penetrar el régimen de forma efectiva, los nichos deben tener algo de compatibilidad con el régimen. Esta compatibilidad limita el cambio efectuado. Esto nos lleva a una paradoja en donde los nichos deben ser radicales para ofrecer un cambio, pero compatibles para lograrlo. ¿Cómo romper eso? El panorama ofrece gradientes apropiados para que nichos radicales logren penetrar en régimen sin sacrificar divergencia. Estos gradientes pueden hacer que el nicho entre con más facilidad, o pueden hacer que al régimen le cueste cada vez más trabajo continuar por su camino actual, desestabilizándolo y creando ventanas de oportunidad para nichos.
+#+end_notes
+
+** Patrones de transición
+#+begin_coliz
+#+attr_reveal: :frag (appear)
++ Emergencia de la novedad en el nicho
++ Especialización técnica en el nicho
++ Surgimiento de la nueva tecnología, difusión, y competencia
++ Reemplazo gradual e impacto en la sociedad
+#+end_coliz
+
+#+begin_colde
+#+caption: Adaptado de [cite:@Geels2005a, p.685]
+[[file:media/transiciones.png]]
+#+end_colde
+
+#+begin_notes
+Geels (2005) proposes a transition pattern model based on 4 basic stages; (a) novelty emergence in the niche; (b) technical specialization in niche; (c) breakthrough of the new technology, wide diffusion, and competition; and (d) gradual replacement of established regime and wider impacts on society
+
+Esto resulta contradictorio, en principio, con la definición misma de tecnología y la relación de co-evolución propuesta por el mismo Geels porque deja estos impactos en la sociedad (en una vía) para le final del procesos. En adición, confunde tecnología con artefacto. Lo que surge es un artefacto, y se convierte en tecnología al crear enlaces con el régimen. 
+#+end_notes
+
+** Ventajas
+#+attr_reveal: :frag (appear)
++ Buen balance entre segmentos de demanda (el régimen) y oferta (el nicho)
++ Es capaz de incluir gran diversidad de actores y elementos institucionales
++ Reconoce el carácter dinámico del proceso y la co-evolución entre actores, instituciones, y tecnología
++ Al asumir una visión socio-técnica de la tecnología, es capaz de incluir diferentes tipos de innovaciones (e.g. técnicas, de negocio, regulativas, culturales, etc.)
+
+** Críticas
+#+attr_reveal: :frag (appear)
++ Le da poco valor a la agencia humana en el proceso [cite:@Genus2008]
++ Es difícil de operacionalizar. ¿Cuándo empieza y cuándo termina una transición? ¿Cuáles son los límites del régimen? ¿Cuáles son los límites del nicho?
+
+#+begin_notes
++ Le da poco valor a la agencia humana en el proceso [[parencite:&Genus2008]]. Esto ha sido contestado por los proponentes de la MLP [[parencite:&Geels2011]]. En mi concepto, en el mejor de los casos se podría decir que agrupa diversas agencias en los conceptos de régimen y nicho, pero no que las ignora.
++ Es difícil de operacionalizar. ¿Cuándo empieza y cuándo termina una transición? ¿Cuáles son los límites del régimen? ¿Cuáles son los límites del nicho?
++ Énfasis en narrativas de abajo hacia arriba en donde los nichos inestables y experimetales penetran regímenes estables. Esto ignora un gran rango de procesos de innovación en donde una tecnología madura es adoptada por un nuevo contexto (como lo que pasa normalmente en el Sur Global)
++ Dificultades para delimitar un régimen y una transición
+  
+One of the biggest challenges when operationalising the MLP is the empirical definition of regimes (Berkhout, et al., 2004; Smith, et al., 2005). The problem here is that, from an analytical perspective, what can be seen as a regime from one perspective is nothing more than a niche from another. For example, if seen from the retail regime in Colombia, e-commerce is an emerging niche. However, e-commerce can be considered as a regime in itself with its own niches (e.g. crypto-currencies, mobile payments, etc.). Es consecuencia de las bases sistémicas de la MLP. Esto, que puede parecer una limitación, es una consecuencia natural de no poder separar la tecnología de su contexto. Es de hecho una fortaleza porque nos obliga a entender la tecnología en el contexto en el que se desarrolla y nos aleja de nociones materiales de la tecnología.
+#+end_notes
+
+* Transiciones socio-técnicas en contextos no-líderes
+** Limitaciones en contextos no-líderes
+#+attr_reveal: :frag (appear)
++ Euro-centrista
++ Foco casi que exclusivo en invención o revisión
++ Narrativas tipo David vs. Goliath
++ Distancia física y contextual entre "nicho" y régimen
++ Transiciones como procesos todo-o-nada
++ Nichos radicales como única fuente de transición
+
+#+begin_notes
+An increasing concern among MLP scholars is the euro-centric nature of the field (Markard, et al., 2012). The biggest consequence is that most of the empirical research on the MLP has taken place in leading contexts and industrialized economies. Perhaps because industrialized countries are more interested in innovation processes that follow the invention or revision archetypes, most of the research using the MLP has focused on this type of processes, and little work has been produced on the other archetypes
+
+Hall & Wylie concludes that “[w]hile this discussion tends to suggest that isolation is a characteristic of – and may facilitate - innovation with relatively immature technology, it is neither necessary nor sufficient for innovation of that kind” (2014, p. 365). This implies that isolation comes in many forms and it would be difficult to support that it is beneficial for every innovation archetype. Hence, the MLP should be extended to include other structures at the micro level to accommodate the variety of innovation processes found in non-leading contexts like Colombian microenterprise sectors.
+
+Una de las principales limitaciones es las transiciones socio-técnicas se basan en narrativas romantizadas de David vs. Goliath en donde un nicho pequeño y desalineado se enfrenta contra un régimen estable y poderoso [[parencite:&Geels2010]]. Esto, en contexto de tecnologías de información en Colombia, no es aplicable ya que los nichos (entendidos como el origen de la tecnología) es mucho más estable y potente que el régimen. 
+
+Otro punto importante es la distancia física y contextual entre productores (ubicados en el nicho) y consumidores (ubicados en el régimen) de las tecnologías de información en el Sur Global. Esa distancia dificulta los procesos de co-evolución y se convierte más en uno de adaptación en un vía en donde las tecnologías de información sirven de caballo de Troya para elementos institucionales y culturales foráneos que no siempre son compatibles con los contextos locales [[parencite:&Heeks2002a]]. Incluso se pueden llegar a ver como una herramienta colonial.
+
+Otra limitación importante es la noción de que las transiciones son procesos de todo o nada; un reemplazo completo de régimen [[parencite:&Furlong2014]]. Esto puede ser válido en contextos de monopolios naturales, pero no en contextos de co-existencia tecnológica usuales en el Sur Global.
+
+Los nichos como única fuente de las transiciones también son un problema ya que, en lo funcional, están dedicados a producir innovación del tipo invención o revisión. Esto reduce drásticamente su relevancia en el Sur Global, en donde estos arquetipos no son los dominantes [[parencite:&Gregson2011]]. Es necesario conceptualizar nuevas estructuras que cubran y expliquen otros tipos de innovación.
+#+end_notes
+
+* Los nichos de transposición
+#+caption: Tomado de [cite:@Gomez-Morantes2016]
+[[file:media/estructuraNT.png]]
+
+#+begin_notes
+Si bien son similares en textura, los nichos de transposición difieren de los nichos radicales en su dimensión funcional. Son espacios que llevan una tecnología de un régimen a otro, con todo lo que esto implica.
+#+end_notes
+
+** Comparación con nichos radicales
+#+attr_html: :style font-size: 70%;
+#+caption: Tomado de [cite:@Gomez-Morantes2016]
+|                          | Nichos radicales                                                                                                | Nichos de transposición                                                                                                                                          |
+|--------------------------+-----------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Composición              | Actores, artefactos, y reglas                                                                                   | Actores, artefactos, y reglas                                                                                                                                    |
+| Estabilidad              | Altamente inestable. Las reglas se crean y re-crean de forma experimental. Poca presencia de reglas regulativas | Semi-estables o estables. Hereda parate de la estabilidad del régimen original de la tecnología; incluyendo algunas reglas regulativas, normativas, y cognitivas |
+| Relación con el régimen  | Aislamiento auto-impuesto para habilitar procesos creativos y protegerse de las presiones del régimen           | Aislamiento exógeno. No han entrado al régimen destino por factores externos o incompatibilidades fuertes                                                        |
+| Relación con el panorama | El panorama provee estructuras profundas que pueden crear ventanas de oportunidad para la difusión del nicho    | El panorama provee estructuras profundas que pueden crear ventanas de oportunidad para la difusión del nicho                                                     |
+
+** Nuevos patrones de transición
+#+caption: Tomado de [cite:@Gomez-Morantes2016]
+#+attr_html: :width 40% 
+[[file:media/transicionNT.png]]
+
+#+begin_notes
+Esto impone una reformulación de los patrones de las transiciones ya que las dos primeras fases sólo aplican a nichos radicales. 
+#+end_notes
+
+** Referencias
+:PROPERTIES:
+:CUSTOM_ID: bibliography
+:END:
+
+#+attr_html: :style font-size: 50%;
+#+attr_html: :align left
+#+begin_div
+#+print_bibliography:
+#+end_div
+
+* Imágenes adicionales tomadas de:
++ https://www.pexels.com/photo/a380-air-airbus-aircraft-358220/
++ https://www.pexels.com/photo/fisherman-throwing-fish-net-on-lake-2131967/
+  
